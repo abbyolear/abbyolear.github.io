@@ -1,0 +1,27 @@
+img {
+    /* padding: 2em 2em 2em 2em; */
+    padding: 4em;
+}
+
+header {
+    color: #ED428B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #FFB0D2;
+    text-align: center;
+    padding: 4em;
+}
+
+body {
+    color: #FFB0D2;
+    font-weight: 800;
+}
+
+section {
+    color: #A0A0A0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.objective {
+    text-align: center;
+}
