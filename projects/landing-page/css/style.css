@@ -1,0 +1,110 @@
+/*
+font-family: "Sixtyfour", sans-serif;
+font-family: "Kanit", sans-serif;
+
+red #E86262
+orange #E88762
+yellow #FBF0AB
+teal #61ada6
+off white #ECECE9
+black #00000
+
+NOTES TO SELF:
+stopped at 20:56
+*/
+
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: #ECECE9;
+    color: #000000;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Sixtyfour", sans-serif;
+    color: #61ada6;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a {
+    color: #b17033;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    background-color: #fbdcab;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 3%;
+}
+
+.btn-light {
+    width: 100%;
+    background-color: #fbdcab;
+    color: #61ada6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85em;
+    letter-spacing: 3px;
+}
+
+.btn-light:hover {
+    background-color: #61ada6;
+}
+
+.color-block {
+    background-color: #61ada6;
+    color: #ECECE9;
+}
+
+section,
+footer {
+    padding: 3% 0;
+}
+
+.products img {
+    border-radius: 50%;
+}
+
+.products h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: #fbdcab;
+}
+
+footer .btn-light {
+    background-color: #ECECE9;
+    color: #b17033;
+}
+
+a:hover {
+    color: #61ada6;
+}
+
+.color-block .row,
+.color-block img,
+.color-block h3,
+.color-block .p .products .row,
+.products .row h3 {
+    margin: 5% 0 0 0;
+}
