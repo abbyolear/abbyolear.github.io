@@ -1,0 +1,160 @@
+/*
+  font-family: "Abril Fatface", serif;
+ font-family: "Poppins", sans-serif;
+
+off white #FFF6F4
+light pink #FFB9DB
+dark pink #E06AA7
+blue #6B7DAC
+grey #9B98A8
+
+questions::
+header does not open resume
+how to fix spacing on the home page 
+how to fix fonts and links
+*/
+
+header {
+    background-color: #FFB9DB;
+    text-align: justify;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 3%;
+    color: #E06AA7;
+}
+
+a:hover {
+    color: #FFF6F4;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #FFF6F4;
+    color: #000000;
+    font-size: 16px;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-size: 5em;
+    color: #E06AA7;
+    padding: .75%;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #000000;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.btn-light {
+    width: 100%;
+    background-color: #FFB9DB;
+    color: #FFF6F4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85em;
+    letter-spacing: 3px;
+    padding: 5%;
+}
+
+.intro img {
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+    padding: 3%;
+}
+
+
+.intro {
+    padding: 3%;
+    color: #9B98A8;
+    align-items: center;
+}
+
+.intro h2 {
+    text-align: left;
+    font-size: 3em;
+}
+
+.intro h3 {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.socials {
+    font-size: 3em;
+    text-align: center;
+}
+
+.statement {
+    font-size: .8em;
+}
+
+.resume {
+    padding: 3%;
+}
+
+.resume h2 {
+    color: #E06AA7;
+}
+
+.resume h3 {
+    color: #9B98A8;
+    font-size: larger;
+}
+
+.resume p {
+    font-size: 1em;
+}
+
+hr {
+    color: #6B7DAC;
+}
+
+
+#pub {
+    color: #E06AA7;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.clips img {
+    border-radius: 50%;
+    width: 80em;
+    height: auto;
+    padding: 2%;
+
+}
+
+#links {
+    text-align: center;
+    color: #9B98A8;
+    font-size: larger;
+}
+
+.clips a {
+    color: #9B98A8;
+
+}
+
+.clips a:hover {
+    color: #FFB9DB;
+}
