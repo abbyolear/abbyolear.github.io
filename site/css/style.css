@@ -8,10 +8,11 @@ dark pink #E06AA7
 blue #6B7DAC
 grey #9B98A8
 
-questions::
-header does not open resume
+questions:
+resume wont open unless i press live from vscode
 how to fix spacing on the home page 
-how to fix fonts and links
+why won't the picture show on the clips page?
+at a glance, do you see anything that i would get points taken off for?
 */
 
 header {
@@ -97,8 +98,11 @@ p {
     font-size: 1.5em;
 }
 
-.socials {
-    font-size: 3em;
+.bi {
+    font-size: 4em;
+}
+
+.social {
     text-align: center;
 }
 
