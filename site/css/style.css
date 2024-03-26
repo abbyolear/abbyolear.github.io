@@ -9,10 +9,9 @@ blue #6B7DAC
 grey #9B98A8
 
 questions:
-resume wont open unless i press live from vscode
-how to fix spacing on the home page 
-why won't the picture show on the clips page?
-at a glance, do you see anything that i would get points taken off for?
+lower h2 add padding or margin from dbk to sbs
+1.5 em 0 0 0 
+
 */
 
 header {
@@ -28,7 +27,7 @@ nav a {
 }
 
 a:hover {
-    color: #FFF6F4;
+    color: #E06AA7;
 }
 
 body {
@@ -99,15 +98,31 @@ p {
 }
 
 .bi {
-    font-size: 4em;
+    font-size: 2.5em;
+    color: #000000;
+    text-align: center;
+    padding: 4%;
 }
 
 .social {
     text-align: center;
 }
 
+.social p {
+    text-align: left;
+}
+
+.social a {
+    color: #000000;
+}
+
+.social a :hover {
+    color: #9B98A8;
+}
+
 .statement {
     font-size: .8em;
+    text-align: justify;
 }
 
 .resume {
@@ -125,6 +140,10 @@ p {
 
 .resume p {
     font-size: 1em;
+}
+
+.lower {
+    padding: 1.5 0 0 0
 }
 
 hr {
