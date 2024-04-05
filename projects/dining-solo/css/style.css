@@ -1,0 +1,104 @@
+/* 
+black #0C0E0C (body background, graphics text)
+white #FAFCEF (body text)
+beige #F9F1E5 (graphics background)
+orange #E18D58 (links)
+*/
+
+h1 {
+    font-family: "Italiana", sans-serif;
+    font-size: 8em;
+}
+
+h2 {
+    font-family: "Abel", sans-serif;
+    font-size: 1.1em;
+}
+
+h3 {
+    font-family: "Abel", sans-serif;
+    letter-spacing: -1.2px;
+}
+
+p {
+    font-family: "Abel", sans-serif;
+    font-size: 1.2em;
+}
+
+a {
+    color: #E18D58;
+}
+
+body {
+    background-color: #F9F1E5;
+}
+
+header {
+    padding: 30% 5%;
+    min-height: 100vh;
+    text-shadow: 5px 5px 10px #5D5E4F;
+    background-image: url('../images/restaurant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header h1 {
+    color: #FAFCEF;
+}
+
+header h2 {
+    letter-spacing: 1px;
+    color: #FAFCEF;
+}
+
+header p {
+    color: #FAFCEF;
+}
+
+.container {
+    width: 55%;
+    padding: 5% 0% 5% 0%;
+}
+
+
+.black {
+    background-color: #0C0E0C;
+    color: #FAFCEF;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.graphics {
+    padding: 5% 0% 5% 0%;
+    align-items: center;
+}
+
+.graphics h3 {
+    text-align: center;
+}
+
+.graphics img {
+    max-width: 100%;
+    height: auto;
+}
+
+.graphics p {
+    color: #0C0E0C;
+    align-content: center;
+}
+
+.white {
+    background-color: #F9F1E5;
+}
