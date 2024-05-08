@@ -1,0 +1,84 @@
+/* 
+white #FAFCEF (body text)
+gray #2e2e2e (background)
+lighter gray #525252 
+blue #87b4ca
+*/
+
+body {
+    background-color: #2e2e2e;
+    color: #FAFCEF;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 200;
+    font-size: 1.2em;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 3%;
+}
+
+a {
+    color: #87b4ca;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+header {
+    padding: 30% 5%;
+    min-height: 100vh;
+    text-shadow: 5px 5px 10px #5D5E4F;
+    background-image: url('../images/Hero\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+.emphasis p {
+    font-weight: 500;
+}
+
+.change {
+    background-color: #525252;
+    color: #87b4ca;
+    text-align: center;
+    padding: 3%;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.overall {
+    background-color: #525252;
+    color: #87b4ca;
+    text-align: center;
+    padding: 3%;
+    font-size: 1em;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer {
+    text-shadow: 5px 5px 10px #5D5E4F;
+    background-image: url(../images/Footer.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+}
